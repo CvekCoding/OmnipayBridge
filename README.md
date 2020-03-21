@@ -8,6 +8,7 @@ Payum is an MIT-licensed open source project with its ongoing development made p
 ---
 
 # OmnipayBridge
+Adopted version for omnipay/common v3.
 
 [![Build Status](https://travis-ci.org/Payum/OmnipayBridge.png?branch=master)](https://travis-ci.org/Payum/OmnipayBridge) [![Total Downloads](https://poser.pugx.org/payum/omnipay-bridge/d/total.png)](https://packagist.org/packages/payum/omnipay-bridge) [![Latest Stable Version](https://poser.pugx.org/payum/omnipay-bridge/version.png)](https://packagist.org/packages/payum/omnipay-bridge)
 
