@@ -99,7 +99,7 @@ class OffsiteCaptureAction extends BaseApiAwareAction implements GatewayAwareInt
             throw new \LogicException('The bridge supports only responses which extends AbstractResponse. Their ResponseInterface is useless.');
         }
 
-        if ($response->isRedirect()) {
+        if ($response->isRedirect() && $response->isSuccessful()) {
             /** @var \Omnipay\Common\Message\AbstractResponse|\Omnipay\Common\Message\RedirectResponseInterface $response */
             if (false == $response instanceof \Omnipay\Common\Message\RedirectResponseInterface) {
                 throw new \LogicException('The omnipay\'s tells its response is redirect but the response instance is not RedirectResponseInterface.');
